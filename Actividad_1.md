@@ -5,7 +5,7 @@ Ejecutar la siguiente serie de comandos e interpretar cuál es  el resultado obt
 ----
 ## Actividad 1
 
-SecretaryTool admins a number of develop companies than look for a simulated certification. The levels of certification is represent by a KI.
+Some basic commands for system Gathering and Status.
 
 ![alt tag](https://github.com/oemunoz/secretarytool/raw/master/images/db_1.png)
 
@@ -18,12 +18,15 @@ Gathering devices status.
 _
 ====
 ### Devices status
-arch
-uname -m
-uname -r
-dmidecode -q
+- arch
+- uname -m
+- uname -r
+- dmidecode -q
 
 ![alt tag](https://github.com/oemunoz/IntegracionRedes/raw/master/images/firstCommands.png)
+
+_
+====
 
 cat /proc/cpuinfo
 cat /proc/interrupts
