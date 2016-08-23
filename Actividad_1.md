@@ -22,6 +22,7 @@ _
 - uname -m
 - uname -r
 - dmidecode -q
+- ls -all
 
 ![alt tag](https://github.com/oemunoz/IntegracionRedes/raw/master/images/firstCommands.png)
 
