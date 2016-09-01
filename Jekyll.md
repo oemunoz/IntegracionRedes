@@ -14,7 +14,7 @@ al andar se hace camino..."
 sudo apt-get install docker.io
 ```
 
-![alt tag](https://github.com/oemunoz/secretarytool/raw/master/images/db_1.png)
+![alt tag](https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/VM_Docker.png)
 
 _
 ====
@@ -24,23 +24,28 @@ _
 docker --version
 Docker version 1.11.2, build b9f10c9
 ```
-_
-====
-### Devices status
-- arch
-- uname -m
-- uname -r
-- dmidecode -q
-- ls -all
 
-![alt tag](https://github.com/oemunoz/IntegracionRedes/raw/master/images/firstCommands.png)
+Añada su usuario en /etc/group linea docker:
+```bash
+docker:x:117:miusuario
+```
 
 _
 ====
+### Testing docker
 
-cat /proc/cpuinfo
-cat /proc/interrupts
-cat /proc/meminfo
+```bash
+docker run -i -t ubuntu /bin/bash
+```
+
+_
+====
+### Testing docker
+
+```bash
+docker run -d -p 80:80 oems/wikkawiki
+```
+
 
 ----
 ## Instalar Git
