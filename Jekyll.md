@@ -1,4 +1,4 @@
-# Integracion Redes
+# Instalando Jekyll
 
 Instalar Jekyll en Linux.
 
@@ -6,13 +6,6 @@ Instalar Jekyll en Linux.
 se hace camino al andar
 al andar se hace camino..."
 
-
-----
-## Instalar Docker
-
-```bash
-sudo apt-get install git
-```
 
 ----
 ## Instalar Docker
@@ -48,3 +41,21 @@ _
 cat /proc/cpuinfo
 cat /proc/interrupts
 cat /proc/meminfo
+
+----
+## Instalar Git
+
+```bash
+sudo apt-get install git
+```
+
+----
+## Clonar Jekyll Pages
+
+```bash
+git clone git clone https://github.com/poole/poole.git
+```
+
+```bash
+docker run -p 4000:4000 --rm -it -v $PWD:/srv/jekyll jekyll/jekyll:pages sh -c 'bundle exec jekyll serve'
+```
