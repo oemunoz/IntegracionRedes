@@ -1,12 +1,11 @@
 <section data-background="https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/jekyllback.png" data-markdown>
 
-# Instalando Jekyll
+# Laboratorio Docker y Jekyll
 
 Instalar Jekyll en Linux.
 
 "Caminante, no hay camino,
-se hace camino al andar
-al andar se hace camino..."
+se hace camino al andar..."
 
 
 ----
@@ -105,3 +104,16 @@ _
 docker run -p 4000:4000 --rm -it -v $PWD:/srv/jekyll jekyll/jekyll:pages sh -c 'bundle exec jekyll serve'
 ```
 ![alt tag](https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/jekyll.png)
+
+_
+====
+## Using it
+
+[oemunoz](https://oemunoz.github.io/)
+
+![alt tag](https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/MatrixAir.jpg)
+
+_
+====
+### Useful links
+[WordPress vs. Jekyll](https://www.sitepoint.com/wordpress-vs-jekyll-might-want-make-switch/)
