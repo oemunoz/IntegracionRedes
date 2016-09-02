@@ -72,6 +72,8 @@ docker run -d -p 8082:80 oems/wikkawiki
 ```
 https://hub.docker.com/r/oems/wikkawiki/
 
+![alt tag](https://github.com/oemunoz/wikkawiki/raw/master/images/wikka_logo.jpg)
+
 ----
 ## Instalar Git
 
