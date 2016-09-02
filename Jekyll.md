@@ -13,7 +13,6 @@ al andar se hace camino..."
 ```bash
 sudo apt-get install docker.io
 ```
-
 ![alt tag](https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/VM_Docker.png)
 
 _
@@ -29,6 +28,7 @@ Añada su usuario en /etc/group linea docker:
 ```bash
 docker:x:117:miusuario
 ```
+![alt tag](https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/docker.png)
 
 _
 ====
@@ -64,6 +64,10 @@ _
 
 ```bash
 git clone git clone https://github.com/poole/poole.git
+```
+
+```bash
+https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/Gemfile
 ```
 
 _
