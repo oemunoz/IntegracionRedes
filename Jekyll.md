@@ -55,12 +55,17 @@ https://hub.docker.com/r/oems/wikkawiki/
 sudo apt-get install git
 ```
 
-----
+_
+====
 ## Clonar Jekyll Pages
 
 ```bash
 git clone git clone https://github.com/poole/poole.git
 ```
+
+_
+====
+## Running Jekyll 
 
 ```bash
 docker run -p 4000:4000 --rm -it -v $PWD:/srv/jekyll jekyll/jekyll:pages sh -c 'bundle exec jekyll serve'
