@@ -44,6 +44,9 @@ _
 
 ```bash
 docker run -d -p 80:80 oems/wikkawiki
+```
+
+```bash
 run --rm  -p 1234:80 -e ALLOW_ARBITRARY=1 nazarpc/phpmyadmin
 ```
 https://hub.docker.com/r/oems/wikkawiki/
@@ -65,7 +68,7 @@ git clone git clone https://github.com/poole/poole.git
 
 _
 ====
-## Running Jekyll 
+## Running Jekyll
 
 ```bash
 docker run -p 4000:4000 --rm -it -v $PWD:/srv/jekyll jekyll/jekyll:pages sh -c 'bundle exec jekyll serve'
