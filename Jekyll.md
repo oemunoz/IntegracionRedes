@@ -1,5 +1,4 @@
 <section data-background="https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/jekyllback.png" data-markdown>
-
 # Laboratorio Docker y Jekyll
 
 Instalar Jekyll en Linux.
@@ -9,7 +8,8 @@ se hace camino al andar..."
 
 
 ----
-## Instalar Docker
+## Instalar Docker on ubuntu
+<section data-background="https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/docker-ubuntu.png" data-markdown>
 
 ```bash
 sudo apt-get install docker.io
@@ -33,6 +33,7 @@ docker:x:117:miusuario
 
 _
 ====
+<section data-background="https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/ibm_docker.jpeg" data-markdown>
 ### Testing docker
 
 ```bash
@@ -56,6 +57,7 @@ docker run --rm  -p 8080:80 -e ALLOW_ARBITRARY=1 nazarpc/phpmyadmin
 
 _
 ====
+<section data-background="https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/ibm_docker.jpeg" data-markdown>
 ### wordpress instance
 
 
