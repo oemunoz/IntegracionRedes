@@ -100,4 +100,4 @@ _
 ```bash
 docker run -p 4000:4000 --rm -it -v $PWD:/srv/jekyll jekyll/jekyll:pages sh -c 'bundle exec jekyll serve'
 ```
-![alt tag](https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/jekyll.jpg)
+![alt tag](https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/jekyll.png)
