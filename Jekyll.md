@@ -37,7 +37,12 @@ _
 ```bash
 docker run -i -t ubuntu /bin/bash
 ```
+![alt tag](https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/ubuntu.jpg)
 
+```bash
+docker run -i -t fedora /bin/bash
+```
+![alt tag](https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/fedora.png)
 _
 ====
 ### Testing docker
@@ -50,6 +55,10 @@ docker run -d -p 80:80 oems/wikkawiki
 docker run --rm  -p 1234:80 -e ALLOW_ARBITRARY=1 nazarpc/phpmyadmin
 ```
 https://hub.docker.com/r/oems/wikkawiki/
+
+```bash
+docker run -d -p 80:80 tutum/wordpress
+```
 
 ----
 ## Instalar Git
