@@ -43,22 +43,33 @@ docker run -i -t ubuntu /bin/bash
 docker run -i -t fedora /bin/bash
 ```
 ![alt tag](https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/fedora.png)
+
 _
 ====
-### Testing docker
+### phpmyadmin instance
 
 ```bash
-docker run -d -p 80:80 oems/wikkawiki
+docker run --rm  -p 8080:80 -e ALLOW_ARBITRARY=1 nazarpc/phpmyadmin
 ```
+![alt tag](https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/phpmyadmin.png)
+
+_
+====
+### wordpress instance
+
 
 ```bash
-docker run --rm  -p 1234:80 -e ALLOW_ARBITRARY=1 nazarpc/phpmyadmin
+docker run -d -p 8081:80 tutum/wordpress
+```
+![alt tag](https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/wordpress.png)
+_
+====
+### LAMP example:
+
+```bash
+docker run -d -p 8082:80 oems/wikkawiki
 ```
 https://hub.docker.com/r/oems/wikkawiki/
-
-```bash
-docker run -d -p 80:80 tutum/wordpress
-```
 
 ----
 ## Instalar Git
