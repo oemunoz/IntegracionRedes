@@ -44,8 +44,9 @@ _
 
 ```bash
 docker run -d -p 80:80 oems/wikkawiki
+run --rm  -p 1234:80 -e ALLOW_ARBITRARY=1 nazarpc/phpmyadmin
 ```
-
+https://hub.docker.com/r/oems/wikkawiki/
 
 ----
 ## Instalar Git
