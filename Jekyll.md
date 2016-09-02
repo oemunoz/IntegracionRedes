@@ -1,4 +1,5 @@
 <section data-background="https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/jekyllback.png" data-markdown>
+
 # Laboratorio Docker y Jekyll
 
 Instalar Jekyll en Linux.
