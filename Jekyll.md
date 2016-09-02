@@ -67,7 +67,7 @@ git clone git clone https://github.com/poole/poole.git
 ```
 
 ```bash
-https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/Gemfile
+wget https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/Gemfile .
 ```
 
 _
