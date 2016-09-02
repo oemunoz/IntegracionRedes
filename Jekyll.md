@@ -62,6 +62,7 @@ _
 docker run -d -p 8081:80 tutum/wordpress
 ```
 ![alt tag](https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/wordpress.png)
+
 _
 ====
 ### LAMP example:
@@ -77,6 +78,7 @@ https://hub.docker.com/r/oems/wikkawiki/
 ```bash
 sudo apt-get install git
 ```
+![alt tag](https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/GitAll.png)
 
 _
 ====
@@ -87,6 +89,7 @@ git clone git clone https://github.com/poole/poole.git
 ```
 
 ```bash
+cd poole
 wget https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/Gemfile .
 ```
 
@@ -97,3 +100,4 @@ _
 ```bash
 docker run -p 4000:4000 --rm -it -v $PWD:/srv/jekyll jekyll/jekyll:pages sh -c 'bundle exec jekyll serve'
 ```
+![alt tag](https://raw.githubusercontent.com/oemunoz/IntegracionRedes/master/images/jekyll.jpg)
