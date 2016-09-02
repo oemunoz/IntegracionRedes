@@ -24,7 +24,7 @@ docker --version
 Docker version 1.11.2, build b9f10c9
 ```
 
-Añada su usuario en /etc/group linea docker:
+Anada su usuario en /etc/group linea docker:
 ```bash
 docker:x:117:miusuario
 ```
@@ -47,7 +47,7 @@ docker run -d -p 80:80 oems/wikkawiki
 ```
 
 ```bash
-run --rm  -p 1234:80 -e ALLOW_ARBITRARY=1 nazarpc/phpmyadmin
+docker run --rm  -p 1234:80 -e ALLOW_ARBITRARY=1 nazarpc/phpmyadmin
 ```
 https://hub.docker.com/r/oems/wikkawiki/
 
